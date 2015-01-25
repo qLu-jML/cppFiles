@@ -36,6 +36,15 @@ int main() {
 	cout << "Along the way, a band of marauding ogres ambushed the party. ";
 	cout << "All fought bravely under " << leader <<"'s leadership, and the ogres were defeated - but at a cost";
 	cout << "Of the adventurers, " << killed << " were vanquished, ";
-	cout 
+	cout << "leaving just " << survivors << " in the group.\n";
+	cout << "\nThe party was about to give up all hope. ";
+	cout << "But while laying the deceased to rest, ";
+	cout << "they stumbled upon the buried fortune. ";
+	cout << "So the adventurers split " << gold_pieces << " gold pieces.";
+	cout << leader << " held on to the extra " << (gold_pieces % survivors);
+	cout << "pieces to keep things fair of course.\n";
+
+	return 0;
+	
 
 }
